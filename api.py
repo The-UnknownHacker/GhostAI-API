@@ -57,7 +57,7 @@ client = MongoClient(mongo_url, server_api=ServerApi('1'))
 # Define the path to the file containing valid API keys
 VALID_API_KEYS_FILE = 'valid_api_keys.txt'
 # Define your own API key for Google Generative AI service
-GOOGLE_API_KEY = "AIzaSyABntLwQVD7Ql7GxSHJN1ZPyMpz2yyyFRg"
+GOOGLE_API_KEY = "Your API"
 
 # Configure GhostAI with your API key
 genai.configure(api_key=GOOGLE_API_KEY)
